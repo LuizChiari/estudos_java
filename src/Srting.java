@@ -22,7 +22,7 @@ public class Srting {
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
 		Locale.setDefault(Locale.US);
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
-		
+		System.out.println("Uma linha a mais ao git");
 		
 		//Products:
 		//Computer, which price is $ 2100,00
