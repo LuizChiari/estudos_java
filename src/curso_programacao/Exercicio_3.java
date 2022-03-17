@@ -8,23 +8,23 @@ public class Exercicio_3 {
 	
 		Scanner sc = new Scanner(System.in);
 				
-		int A,B,C,D, Diferenca;
+		int a,b,c,d, diferenca;
 		
 		
-		A = sc.nextInt();
-		B = sc.nextInt();
-		C = sc.nextInt();
-		D = sc.nextInt();
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		d = sc.nextInt();
 		
 		
-	    Diferenca = (A*B-C*D);
+	    diferenca = (a*b-c*d);
 		
 		System.out.println(" Dados digitados:");
-		System.out.println("A = "+A);
-		System.out.println("B = "+B);
-		System.out.println("C = "+C);
-		System.out.println("D = "+D);
-		System.out.println("Diferenca entre (A * B - C * D)= "+Diferenca);
+		System.out.println("A = "+a);
+		System.out.println("B = "+b);
+		System.out.println("C = "+c);
+		System.out.println("D = "+d);
+		System.out.println("Diferenca entre (A * B - C * D)= "+diferenca);
 		sc.close();
 	}
 }

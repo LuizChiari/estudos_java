@@ -10,13 +10,13 @@ public class Exercicio_2 {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
         
-		Double R, A, π =  3.14159;
+		Double r, a, π =  3.14159;
 		
-		R = sc.nextDouble();
+		r = sc.nextDouble();
 		
-		A = (R * R)* π;
+		a = (r * r)* π;
 	
-		System.out.printf("A=%.4f%n", A);
+		System.out.printf("A=%.4f%n", a);
 		
 		
 		sc.close();
