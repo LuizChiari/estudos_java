@@ -17,7 +17,7 @@ public class Exercicio_3 {
 		d = sc.nextInt();
 		
 		
-	    diferenca = (a*b-c*d);
+	    	diferenca = (a*b-c*d);
 		
 		System.out.println(" Dados digitados:");
 		System.out.println("A = "+a);
