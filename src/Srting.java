@@ -22,8 +22,12 @@ public class Srting {
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
 		Locale.setDefault(Locale.US);
 		System.out.printf("Rouded (three decimal places): %.3f%n", measure);
-		System.out.println("Uma linha a mais ao git");
-		System.out.println("Uma linha a mais de novo ao git");
+		System.out.println("Uma linha a mais ao git \nUma linha a mais de novo ao git");
+		
+		/*comentando
+		varias
+		linhas de uma 
+		unica vez*/
 
 		
 		//Products:

@@ -5,26 +5,22 @@ import java.util.Scanner;
 public class Exercicio_3 {
 
 	public static void main(String[] args) {
-	
+
 		Scanner sc = new Scanner(System.in);
-				
-		int a,b,c,d, diferenca;
-		
-		
-		a = sc.nextInt();
-		b = sc.nextInt();
-		c = sc.nextInt();
-		d = sc.nextInt();
-		
-		
-	    diferenca = (a*b-c*d);
-		
-		System.out.println(" Dados digitados:");
-		System.out.println("A = "+a);
-		System.out.println("B = "+b);
-		System.out.println("C = "+c);
-		System.out.println("D = "+d);
-		System.out.println("Diferenca entre (A * B - C * D)= "+diferenca);
+
+		System.out.println("Digite o valor de a:");
+		int a = sc.nextInt();
+		System.out.println();
+		System.out.println("Digite o valor de b:");
+		int b = sc.nextInt();
+		System.out.println();
+		System.out.println("Digite o valor de c");
+		int c = sc.nextInt();
+		System.out.println("Digite o valor de d:");
+		int d = sc.nextInt();
+		System.out.println();
+		int diferenca = (a*b-c*d);
+		System.out.println("Diferenca entre (a*b-c*d)= "+diferenca);
 		sc.close();
 	}
 }
