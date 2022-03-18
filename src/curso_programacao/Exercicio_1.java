@@ -16,10 +16,11 @@ public class Exercicio_1 {
 		System.out.println("Digite outro numero: ");
 		double y = sc.nextDouble();
 		System.out.println();
+		sc.close();
+
 		double soma = (x + y);
 
-		System.out.println("A soma dos numeros é "+soma);
+		System.out.println("A soma dos numeros é " + soma);
 
-		sc.close();
 	}
 }

@@ -12,12 +12,16 @@ public class Exercicio_2 {
 
 		System.out.println("Digite o Raio do circulo:");
 		System.out.println();
-		double r = sc.nextDouble();
-		double pi = 3.14159;
-		double a = (r*r*pi);
-		System.out.println("O valor da área é:");
-		System.out.printf("%.4f%n",a);
 
+		double r = sc.nextDouble();
+		
 		sc.close();
+		
+		double pi = 3.14159;
+		double a = (r * r * pi);
+		
+		System.out.println("O valor da área do circulo é:");
+		System.out.printf("%.4f%n", a);
+
 	}
 }
