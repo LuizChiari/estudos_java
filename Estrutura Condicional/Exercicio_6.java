@@ -10,9 +10,9 @@ public class Exercicio_6 {
 		double x = sc.nextDouble();
 		System.out.println();
 
-		if (x < 0.0 || x > 100.0){
+		if (x < 0.0 || x > 100.0) {
 			System.out.println("fora do intervalo");
-		
+
 		} else if (x <= 25) {
 			System.out.println("Intervalo 0, 25");
 		} else if (x <= 50) {
